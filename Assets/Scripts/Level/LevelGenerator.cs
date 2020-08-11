@@ -15,16 +15,6 @@ public class LevelGenerator : MonoBehaviour
     private float _startGenerateObjectsTime = 2f;
     private float _passedTime = 0f;
 
-    private void OnEnable()
-    {
-        
-    }
-
-    private void OnDisable()
-    {
-        
-    }
-
     private void Update()
     {
         _passedTime += Time.deltaTime;
